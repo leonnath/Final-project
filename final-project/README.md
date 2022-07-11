@@ -9,6 +9,8 @@ In this application you will be able to control expenses month by month, having 
 
 ## Functional Description
 
+https://www.figma.com/file/AQZYdznaHRVHYu8XpqM5wx/final-project?node-id=0%3A1
+
 ### Use Cases
 
 TODO list use cases
@@ -23,7 +25,6 @@ TODO list use cases
 
 ### Wireframes
 
-https://www.figma.com/file/AQZYdznaHRVHYu8XpqM5wx/final-project?node-id=0%3A1
 
 
 ## Technical Description

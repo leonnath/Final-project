@@ -147,8 +147,8 @@ body {
 }
 
 .Box {
-  width: 85vw;
-  height: 85vw;
+  width: 50vw;
+  height: 50vw;
   min-height: 85vw;
   background-color: white;
   border-radius: 2rem;

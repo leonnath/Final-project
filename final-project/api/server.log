@@ -6,3 +6,7 @@ DB disconnected
 2022-07-11T15:25:28.917Z [right meow!] info: API running on port 8080
 2022-07-11T15:40:52.335Z [right meow!] info: 
 DB disconnected
+2022-07-11T15:51:56.067Z [right meow!] info: DB connected to mongodb://localhost:27017/final-pro
+2022-07-11T15:51:56.083Z [right meow!] info: API running on port 8080
+2022-07-11T15:55:37.516Z [right meow!] info: 
+DB disconnected

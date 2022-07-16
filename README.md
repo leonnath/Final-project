@@ -13,7 +13,7 @@ In this application you will be able to control expenses month by month, having 
 https://www.figma.com/file/AQZYdznaHRVHYu8XpqM5wx/final-project?node-id=0%3A1
 
 Video que describe la funcionalidad: 
-https://youtu.be/I2SWOR6pCrw
+https://youtu.be/dsgAMab3OGE
 
 ### Use Cases
 

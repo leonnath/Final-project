@@ -10,10 +10,10 @@ In this application you will be able to control expenses month by month, having 
 
 ## Functional Description
 
-https://www.figma.com/file/AQZYdznaHRVHYu8XpqM5wx/final-project?node-id=0%3A1
+[Layout Movile Figma](https://www.figma.com/file/AQZYdznaHRVHYu8XpqM5wx/final-project?node-id=0%3A1)
 
-Video que describe la funcionalidad: 
-https://youtu.be/dsgAMab3OGE
+Video que describe la funcionalidad:[ver video](https://youtu.be/dsgAMab3OGE
+)
 
 ### Use Cases
 

@@ -1,21 +1,31 @@
+
+$color-icons: #2ecc71
+
 .Button
     margin: .5rem
     font-size: 1.3rem
 
 .Button
     button: 1px solid black
-    border: 1.5px solid #3A5673
-    border-radius: .25rem
-    background-color: #3A5673
+    border: 1.5px solid $color-icons
+    border-radius: .75rem
+    background-color: $color-icons
     cursor: pointer
-    color: #3A5673
+    color: $color-icons
     width: 20rem
+    padding: 1rem
     margin-bottom: 4rem
     margin-top: 2rem
+
+
 
 .Button--light
     border-color: white
     color: #F8E5E6
+
+.Button--light:hover
+    background:  #ef0b0b     
+    transition:  .50s
 
 .Button--logout
     width: auto
@@ -40,7 +50,7 @@
     width: 10rem
 
 .Tag--expenses
-    width: auto
+    width: 20rem
     border: 1.5px solid
     border-top: none
     border-left: none

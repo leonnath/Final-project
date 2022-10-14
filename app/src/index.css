@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 h1, h2, h3 {
   font-size: inherit;
 }
@@ -9,7 +9,7 @@ a {
 }
 
 * {
-  font-family: Bad Script;
+  font-family: "Roboto", sans-serif;
 }
 
 html, body, #root {
@@ -51,12 +51,13 @@ body {
 
 .Button {
   button: 1px solid black;
-  border: 1.5px solid #3A5673;
-  border-radius: 0.25rem;
-  background-color: #3A5673;
+  border: 1.5px solid #2ecc71;
+  border-radius: 0.75rem;
+  background-color: #2ecc71;
   cursor: pointer;
-  color: #3A5673;
+  color: #2ecc71;
   width: 20rem;
+  padding: 1rem;
   margin-bottom: 4rem;
   margin-top: 2rem;
 }
@@ -64,6 +65,11 @@ body {
 .Button--light {
   border-color: white;
   color: #F8E5E6;
+}
+
+.Button--light:hover {
+  background: #ef0b0b;
+  transition: 0.5s;
 }
 
 .Button--logout {
@@ -92,7 +98,7 @@ body {
 }
 
 .Tag--expenses {
-  width: auto;
+  width: 20rem;
   border: 1.5px solid;
   border-top: none;
   border-left: none;
@@ -137,23 +143,24 @@ body {
   border-right: none;
   background-color: transparent;
   cursor: pointer;
-  color: black;
+  color: rgb(228, 232, 237);
   text-align: left;
 }
 
 .Input--light {
-  border-color: #3A5673;
-  color: #3A5673;
+  border-color: rgb(228, 232, 237);
+  color: rgb(228, 232, 237);
 }
 
 .Input--light::placeholder {
-  color: #3A5673;
+  color: rgb(129, 118, 118);
 }
 
 .checkbox {
   text-align: right;
   width: 20em;
   display: flex;
+  color: rgb(129, 118, 118);
 }
 
 .Box {
@@ -186,11 +193,11 @@ body {
 }
 
 form {
-  width: 60vw;
-  height: 90vh;
+  width: 30vw;
+  height: 65vh;
   display: flex;
   align-content: center;
-  border: #3A5673 0.075rem solid;
+  border: rgb(228, 232, 237) 0.075rem solid;
   border-radius: 3%;
 }
 

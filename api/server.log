@@ -1,0 +1,5 @@
+2022-10-09T16:47:48.313Z [right meow!] info: DB connected to mongodb://localhost:27017/final-pro
+2022-10-09T16:47:48.345Z [right meow!] info: API running on port 8080
+2022-10-09T19:21:41.442Z [right meow!] error: wrong credentials
+2022-10-14T11:41:46.949Z [right meow!] info: DB connected to mongodb://localhost:27017/final-pro
+2022-10-14T11:41:46.957Z [right meow!] info: API running on port 8080

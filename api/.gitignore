@@ -1,0 +1,5 @@
+!.env
+!.server.log
+
+# dependencies
+/node_modules

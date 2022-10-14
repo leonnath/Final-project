@@ -36,6 +36,7 @@ function Login(props) {
         <form className="Container" onSubmit={handleFormSubmit}>
             <input className="Input Input--light" type="username" name="username" placeholder="username" />
             <input className="Input Input--light" type="password" name="password" placeholder="password" />
+            <input type="checkbox" name="remember" id="remember" />
             <button className="Button Button--light" type="submit" >Login</button>
             <Link className="Button Link" to="/register" >Register</Link>
         </form>

@@ -56,7 +56,9 @@ body {
   background-color: #3A5673;
   cursor: pointer;
   color: #3A5673;
-  width: 230px;
+  width: 20rem;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
 }
 
 .Button--light {
@@ -86,6 +88,7 @@ body {
   background-color: transparent;
   border: 1.5px solid;
   text-align: center;
+  width: 10rem;
 }
 
 .Tag--expenses {
@@ -135,7 +138,7 @@ body {
   background-color: transparent;
   cursor: pointer;
   color: black;
-  text-align: center;
+  text-align: left;
 }
 
 .Input--light {
@@ -145,6 +148,12 @@ body {
 
 .Input--light::placeholder {
   color: #3A5673;
+}
+
+.checkbox {
+  text-align: right;
+  width: 20em;
+  display: flex;
 }
 
 .Box {

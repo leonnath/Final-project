@@ -34,9 +34,9 @@ function Login(props) {
 
     return isJwtValid(sessionStorage.token) ? <></> : <div>
         <form className="Container" onSubmit={handleFormSubmit}>
-            <input className="Input Input--light" type="username" name="username" placeholder="username" />
-            <input className="Input Input--light" type="password" name="password" placeholder="password" />
-            <input type="checkbox" name="remember" id="remember" />
+            <input className="Input Input--light" type="username" name="username" placeholder="USERNAME" />
+            <input className="Input Input--light" type="password" name="password" placeholder="PASSWORD" />
+            <label className="checkbox"><input  type="checkbox" name="remember" id="remember" /> Remember </label>
             <button className="Button Button--light" type="submit" >Login</button>
             <Link className="Button Link" to="/register" >Register</Link>
         </form>

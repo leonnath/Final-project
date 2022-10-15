@@ -50,7 +50,7 @@ $color-icons: #2ecc71
     width: 10rem
 
 .Tag--expenses
-    width: 20rem
+    width: 53rem
     border: 1.5px solid
     border-top: none
     border-left: none
@@ -61,7 +61,7 @@ $color-icons: #2ecc71
     
 
 .Tag--income
-    width: auto
+    width: 53rem
     border: 1.5px solid
     border-top: none
     border-left: none
@@ -71,6 +71,27 @@ $color-icons: #2ecc71
     float: right
     margin-right: 2.5rem
 
+
+@media screen and (min-width: 320px), (max-width: 480px )
+    .Tag--expenses
+            width: 10rem 
+
+    .Tag--income  
+        width: 10rem
+    
+@media screen and (min-width:768px), (max-width: 1024px)
+    .Tag--expenses
+            width: 10rem 
+
+    .Tag--income  
+        width: 10rem
+
+@media screen and (min-width: 1200px)
+    .Tag--expenses
+            width: 10rem 
+
+    .Tag--income  
+        width: 10rem
 
 .Plus
     border-radius: 50%

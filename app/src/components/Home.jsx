@@ -78,7 +78,7 @@ function Home(props) {
             {view === 'profile' && <Profile onBackClick={handleBackClick} />}
             {(view === 'expenses' || view === 'income') && <main>
                 <div className="Home__body Container Container--justify-start">
-                    <div className="Container--row Box--tag">
+                    <div className="Box--tag">
                         <button className="Tag--expenses" onClick={handleClickExpenses}>EXPENSES</button>
                         <button className="Tag--income" onClick={handleClickIncome}>INCOME</button>
                     </div>

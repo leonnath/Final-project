@@ -3,3 +3,13 @@
 2022-10-09T19:21:41.442Z [right meow!] error: wrong credentials
 2022-10-14T11:41:46.949Z [right meow!] info: DB connected to mongodb://localhost:27017/final-pro
 2022-10-14T11:41:46.957Z [right meow!] info: API running on port 8080
+2022-10-14T16:21:32.296Z [right meow!] info: DB connected to mongodb://localhost:27017/final-pro
+2022-10-14T16:21:32.303Z [right meow!] info: API running on port 8080
+2022-10-14T16:58:42.734Z [right meow!] error: user with username nath already exists
+2022-10-14T16:58:44.723Z [right meow!] error: user with username nath already exists
+2022-10-14T16:59:00.076Z [right meow!] error: user with username nath already exists
+2022-10-14T16:59:02.109Z [right meow!] error: user with username nath already exists
+2022-10-14T23:37:51.458Z [right meow!] error: user with username fito already exists
+2022-10-14T23:38:07.725Z [right meow!] error: user with username fito already exists
+2022-10-14T23:38:11.508Z [right meow!] error: user with username fito already exists
+2022-10-14T23:38:13.878Z [right meow!] error: user with username fito already exists

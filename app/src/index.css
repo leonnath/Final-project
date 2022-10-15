@@ -219,8 +219,8 @@ body {
 }
 @media screen and (min-width: 768px), (max-width: 1024px) {
   .Box {
-    width: 60%;
-    height: 60%;
+    width: 70%;
+    height: 70%;
   }
 }
 @media screen and (min-width: 1025px), (max-width: 1200px) {

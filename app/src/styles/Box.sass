@@ -1,12 +1,12 @@
 .Box
     width: 70vw
     height: 80vh
-    background-color: blue
+    background-color: rgb(46, 204, 113, .7)
     border-radius: 2rem
     text-align: center
     display: flex
-    align-items: flex-end
-    justify-content: flex-end
+    flex-direction: column
+    align-items: center
     padding-bottom: 20px
     padding-right: 20px
     overflow-y: scroll
@@ -20,7 +20,6 @@
     .Box
             width: 60%
             height: 60%
-            margin-top: 154px
         
 
 @media screen and (min-width: 1025px), (max-width: 1200px)
@@ -32,14 +31,28 @@
 
 
 .Box--tag
+    display: flex
+    flex-direction: column 
+    align-items: center
+    height: auto
+    width: 60vw
     
-    height: 2rem
-    width: 70vw
-    background-color: yellow
 
 .Box--back
     height: 150px
 
 .Box--profile
     height: 90vw
-    
+
+
+.info
+    background-color: transparent
+    width: 90%
+    height: auto 
+    overflow-y: scroll
+    display: flex
+
+.h3
+   text-align: left 
+   font-weight: 200
+

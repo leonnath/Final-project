@@ -26,15 +26,18 @@ function Expenses(props) {
     }
 
     return isJwtValid(sessionStorage.token) ?
+        <div className="info">
+            <h1>Mis datos</h1>
     <ul>
        {movements && movements.map( movement => {
         if(movement.category<=9) {
-        return <li>
-            <h3>Category: {movement.category}</h3>
-            <h3>Amount: {movement.amount}</h3>
-            <h3>Date: {movement.date.toLocaleDateString()}</h3>
+            return <li>
+            
+            <h3 className="h3" >Category: {movement.category}</h3>
+            <h3 className="h3">Amount: {movement.amount}</h3>
+            <h3 className="h3">Date: {movement.date.toLocaleDateString()}</h3>
         </li>}})}
-    </ul> : <></>
+    </ul></div> : <></>
 }
 
 export default Expenses

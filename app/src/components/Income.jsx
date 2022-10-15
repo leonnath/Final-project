@@ -26,7 +26,9 @@ function Income(props) {
     }
 
     return isJwtValid(sessionStorage.token) ?
-    <ul>
+        <div className="info">
+            Datos
+        <ul>
        {movements && movements.map( movement => { 
         if(movement.category>8) {
         return <li>
@@ -34,7 +36,8 @@ function Income(props) {
             <h2>Amount: {movement.amount}</h2>
             <h2>Date: {movement.date.toLocaleDateString()}</h2>
         </li>}})}
-    </ul> : <></>
+            </ul>
+        </div> : <></>
 }
 
 export default Income
